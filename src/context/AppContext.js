@@ -42,7 +42,7 @@ export const AppReducer = (state, action) => {
                 return {
                     ...state,
                     expenses: [...red_expenses],
-                };
+                }; 
             case 'DELETE_EXPENSE':
             action.type = "DONE";
             state.expenses.map((currentExp)=> {
